@@ -1,0 +1,123 @@
+h4 {
+  font-family: "Inconsolata", monospace;
+  margin-left: 24px;
+  margin-top: 20px;
+  color: #333333;
+}
+#scarecrow {
+  width: 286.83px;
+  height: 220.35px;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Space Mono", monospace;
+  width: 350px;
+  height: 142px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  max-width: 100%;
+  height: auto;
+  color: #333333;
+}
+.paragraph {
+  width: 328px;
+  height: 81px;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 100%;
+  height: auto;
+  color: #4f4f4f;
+}
+#button {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+}
+div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 216px;
+  height: 68px;
+  max-width: 100%;
+  height: auto;
+  background-color: #333333;
+  margin: 15px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #bdbdbd;
+
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #bdbdbd;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+
+/* media query para Desktop  */
+@media screen and (min-width: 576px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+  }
+
+  .paragraph {
+    width: 381px;
+    height: 108px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: #4f4f4f;
+    max-width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    width: 586px;
+    height: 190px;
+    font-style: normal;
+    font-weight: 700;
+    max-width: 100%;
+    height: auto;
+    font-size: 64px;
+    line-height: 94.78px;
+    letter-spacing: -0.03em;
+    color: #333333;
+  }
+  #scarecrow {
+    width: 539.22px;
+    height: 414.25px;
+    max-width: 100%;
+    height: auto;
+  }
+}
